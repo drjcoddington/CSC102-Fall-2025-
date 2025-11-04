@@ -1,0 +1,81 @@
+body
+ 
+
+background-image: url(https://wallpapercave.com/painted-turtle-wallpapers);
+   /* background-color: cornflowerblue;
+    background-image: linear-gradient(pink,grey);
+    background-image: radial-gradient(orange, green);
+    background-image: url("corgi.png");
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+   */
+}
+
+img
+{
+    display:block;
+    width:250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav
+{
+    background-color: plum;
+    color:aqua;
+    border: 2px solid black;
+}
+
+h3
+{
+    text-align: right;
+}
+
+footer
+{
+    background-color: green;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-emphasis: filled color;
+    text-decoration: line-through;
+    text-decoration-color: red;
+
+    border: 2px solid blue;
+    border-bottom-left-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;;
+    border-top-left-radius: 50px 50px;
+    border-top-right-radius: 50px 50px;;
+}
+
+button{
+    background-color: darkgoldenrod;
+    border-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border-style: dashed;
+    cursor:crosshair;
+}
+
+button:hover
+{
+    background-color: rgb(152, 241, 50);
+    color:darkcyan;
+    padding: 16px 32px;
+    transition-duration: 1s;
+}
+
+nav ul
+{
+    background:lightseagreen;
+    margin-right: 20px;
+
+}
+nav ul li
+{
+    color:rebeccapurple;
+    font-size: large;
+    text-transform: uppercase;
+}
