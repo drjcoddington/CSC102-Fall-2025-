@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "forms 11 17 25.js"></script>
+    <title>Forms</title>
+</head>
+<body>
+    <h1> Welcome to Game night!</h1>
+    <br>    <br>    <br>    <br>
+
+    <form id = "gameSubmit" onsubmit = "return false">
+            Event Name: <input type = "text" id = "eventName" required minlength="2" maxlength="20"/>
+            <br>
+            # of People:<input type = "number" id = "numPeople"/>    <br>
+            Secret Code: <input type = "password" id = "PW" required minlength="4" maxlength="4"/>    <br>
+            Email:<input type = "email" id = "email"/>    <br>
+            When:<input type = "date" id = "date"/>    <br>
+
+            <button type = "submit" id = "submitBTN" onclick = "checkInput()">Submit</button>
+
+
+    </form>
+
+    <div id = "results">results</div>
+
+<form id = "patterns" onsubmit = "return false">
+
+    Username: (len 4-8, lc)  <input type = "text" id = "username" pattern = "[a-z]{4,8}" title = "Len 4-8 and lower case"/>
+    Class Code (Ex CSC102) <input type = "text" id = "classCode" pattern = "[A-Z]{3}[0-9]{3}"/>
+    Web Site (Ex https://) <input type = "url" id = "website"  />
+    Favorite Color (uc or lc) <input type = "text" id = "color" pattern = "[A-Za-z]{3,20}" />
+
+    <button type = "submit"id = "submitBTN" onclick = "checkPatterns()">Patterns submit</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
